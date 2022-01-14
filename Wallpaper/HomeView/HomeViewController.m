@@ -84,7 +84,7 @@
     }
     NSLog(@"我点击了%ld",self.selectedIndex);
     [self.myDelegate selectIndex:self.selectedIndex];
-    
+    ///测试测试
 }
 /*
 #pragma mark - Navigation
