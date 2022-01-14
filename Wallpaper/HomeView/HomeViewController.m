@@ -77,11 +77,9 @@
 }
 -(void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController
 {
-    if(self.selectedIndex==0)
-    {
+    if(self.selectedIndex==0){
         self.centView.backgroundColor = [[UIColor whiteColor]colorWithAlphaComponent:0.0f];
-    }else
-    {
+    }else{
         self.centView.backgroundColor=RBG(10,14,19);
     }
     NSLog(@"我点击了%ld",self.selectedIndex);
