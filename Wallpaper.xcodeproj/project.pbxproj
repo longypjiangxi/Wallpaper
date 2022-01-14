@@ -1,0 +1,972 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12B015058B2B8FB74C2FC2B4 /* Pods_Wallpaper_WallpaperUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8679B9D02F8062983F05702 /* Pods_Wallpaper_WallpaperUITests.framework */; };
+		B575E5DC276AE61D003F0F7F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B575E5DB276AE61D003F0F7F /* AppDelegate.m */; };
+		B575E5E2276AE61D003F0F7F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B575E5E1276AE61D003F0F7F /* ViewController.m */; };
+		B575E5E7276AE62F003F0F7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B575E5E6276AE62F003F0F7F /* Assets.xcassets */; };
+		B575E5EA276AE62F003F0F7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B575E5E8276AE62F003F0F7F /* LaunchScreen.storyboard */; };
+		B575E5ED276AE62F003F0F7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B575E5EC276AE62F003F0F7F /* main.m */; };
+		B575E5F7276AE630003F0F7F /* WallpaperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B575E5F6276AE630003F0F7F /* WallpaperTests.m */; };
+		B575E601276AE630003F0F7F /* WallpaperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B575E600276AE630003F0F7F /* WallpaperUITests.m */; };
+		B575E603276AE630003F0F7F /* WallpaperUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B575E602276AE630003F0F7F /* WallpaperUITestsLaunchTests.m */; };
+		B575E613276AE731003F0F7F /* WallpaperTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B575E612276AE731003F0F7F /* WallpaperTool.m */; };
+		B575E617276AE7DE003F0F7F /* ObjectAFNetWorking.m in Sources */ = {isa = PBXBuildFile; fileRef = B575E616276AE7DE003F0F7F /* ObjectAFNetWorking.m */; };
+		B575E61D276AF12B003F0F7F /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B575E61C276AF12B003F0F7F /* SearchViewController.m */; };
+		B575E620276AF134003F0F7F /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B575E61F276AF134003F0F7F /* HomeViewController.m */; };
+		B575E623276AF13C003F0F7F /* PayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B575E622276AF13C003F0F7F /* PayViewController.m */; };
+		B575E629276AFAEE003F0F7F /* BaseScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B575E628276AFAEE003F0F7F /* BaseScrollView.m */; };
+		B575E633276B12D0003F0F7F /* PlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B575E632276B12D0003F0F7F /* PlayViewController.m */; };
+		B575E636276B12D7003F0F7F /* TypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B575E635276B12D7003F0F7F /* TypeViewController.m */; };
+		B575E639276B12E0003F0F7F /* MakViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B575E638276B12E0003F0F7F /* MakViewController.m */; };
+		B575E63C276B12E7003F0F7F /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B575E63B276B12E7003F0F7F /* MeViewController.m */; };
+		B575E640276B1365003F0F7F /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B575E63F276B1364003F0F7F /* AddViewController.m */; };
+		B575E644276B1A17003F0F7F /* RecomView.m in Sources */ = {isa = PBXBuildFile; fileRef = B575E643276B1A17003F0F7F /* RecomView.m */; };
+		B575E648276B1A41003F0F7F /* LastNewView.m in Sources */ = {isa = PBXBuildFile; fileRef = B575E647276B1A41003F0F7F /* LastNewView.m */; };
+		B575E64F276B2B6B003F0F7F /* PlayTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B575E64D276B2B6B003F0F7F /* PlayTableViewCell.m */; };
+		B575E650276B2B6B003F0F7F /* PlayTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B575E64E276B2B6B003F0F7F /* PlayTableViewCell.xib */; };
+		B575E653276B2CFD003F0F7F /* PlayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B575E652276B2CFD003F0F7F /* PlayModel.m */; };
+		B575E657276B2F54003F0F7F /* HeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = B575E656276B2F54003F0F7F /* HeadView.m */; };
+		C100B010A872DC1C637927DC /* Pods_WallpaperTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 215D8593DA0A6FB9376A7963 /* Pods_WallpaperTests.framework */; };
+		DB6F220B5C3B55C6ACFD1664 /* Pods_Wallpaper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5940ED4593ADE9D7D7126261 /* Pods_Wallpaper.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B575E5F3276AE630003F0F7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B575E5CF276AE61D003F0F7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B575E5D6276AE61D003F0F7F;
+			remoteInfo = Wallpaper;
+		};
+		B575E5FD276AE630003F0F7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B575E5CF276AE61D003F0F7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B575E5D6276AE61D003F0F7F;
+			remoteInfo = Wallpaper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0961E0ED360260DA4F304994 /* Pods-Wallpaper-WallpaperUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wallpaper-WallpaperUITests.debug.xcconfig"; path = "Target Support Files/Pods-Wallpaper-WallpaperUITests/Pods-Wallpaper-WallpaperUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		215D8593DA0A6FB9376A7963 /* Pods_WallpaperTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WallpaperTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5940ED4593ADE9D7D7126261 /* Pods_Wallpaper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wallpaper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78986FFA630D19144164E2EA /* Pods-Wallpaper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wallpaper.debug.xcconfig"; path = "Target Support Files/Pods-Wallpaper/Pods-Wallpaper.debug.xcconfig"; sourceTree = "<group>"; };
+		78E5D2395EA23EA1678942E2 /* Pods-WallpaperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WallpaperTests.debug.xcconfig"; path = "Target Support Files/Pods-WallpaperTests/Pods-WallpaperTests.debug.xcconfig"; sourceTree = "<group>"; };
+		87349E83A745AB0BC12C334B /* Pods-WallpaperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WallpaperTests.release.xcconfig"; path = "Target Support Files/Pods-WallpaperTests/Pods-WallpaperTests.release.xcconfig"; sourceTree = "<group>"; };
+		B575E5D7276AE61D003F0F7F /* Wallpaper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wallpaper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B575E5DA276AE61D003F0F7F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B575E5DB276AE61D003F0F7F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B575E5E0276AE61D003F0F7F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B575E5E1276AE61D003F0F7F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B575E5E6276AE62F003F0F7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B575E5E9276AE62F003F0F7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B575E5EB276AE62F003F0F7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B575E5EC276AE62F003F0F7F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B575E5F2276AE630003F0F7F /* WallpaperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WallpaperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B575E5F6276AE630003F0F7F /* WallpaperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WallpaperTests.m; sourceTree = "<group>"; };
+		B575E5FC276AE630003F0F7F /* WallpaperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WallpaperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B575E600276AE630003F0F7F /* WallpaperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WallpaperUITests.m; sourceTree = "<group>"; };
+		B575E602276AE630003F0F7F /* WallpaperUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WallpaperUITestsLaunchTests.m; sourceTree = "<group>"; };
+		B575E611276AE731003F0F7F /* WallpaperTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WallpaperTool.h; sourceTree = "<group>"; };
+		B575E612276AE731003F0F7F /* WallpaperTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WallpaperTool.m; sourceTree = "<group>"; };
+		B575E614276AE756003F0F7F /* WallpaperPch.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WallpaperPch.pch; sourceTree = "<group>"; };
+		B575E615276AE7DE003F0F7F /* ObjectAFNetWorking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectAFNetWorking.h; sourceTree = "<group>"; };
+		B575E616276AE7DE003F0F7F /* ObjectAFNetWorking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectAFNetWorking.m; sourceTree = "<group>"; };
+		B575E61B276AF12B003F0F7F /* SearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		B575E61C276AF12B003F0F7F /* SearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		B575E61E276AF134003F0F7F /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		B575E61F276AF134003F0F7F /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		B575E621276AF13C003F0F7F /* PayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PayViewController.h; sourceTree = "<group>"; };
+		B575E622276AF13C003F0F7F /* PayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayViewController.m; sourceTree = "<group>"; };
+		B575E627276AFAEE003F0F7F /* BaseScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseScrollView.h; sourceTree = "<group>"; };
+		B575E628276AFAEE003F0F7F /* BaseScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseScrollView.m; sourceTree = "<group>"; };
+		B575E631276B12D0003F0F7F /* PlayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayViewController.h; sourceTree = "<group>"; };
+		B575E632276B12D0003F0F7F /* PlayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayViewController.m; sourceTree = "<group>"; };
+		B575E634276B12D7003F0F7F /* TypeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TypeViewController.h; sourceTree = "<group>"; };
+		B575E635276B12D7003F0F7F /* TypeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TypeViewController.m; sourceTree = "<group>"; };
+		B575E637276B12E0003F0F7F /* MakViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MakViewController.h; sourceTree = "<group>"; };
+		B575E638276B12E0003F0F7F /* MakViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MakViewController.m; sourceTree = "<group>"; };
+		B575E63A276B12E7003F0F7F /* MeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
+		B575E63B276B12E7003F0F7F /* MeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
+		B575E63E276B1364003F0F7F /* AddViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		B575E63F276B1364003F0F7F /* AddViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
+		B575E642276B1A17003F0F7F /* RecomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecomView.h; sourceTree = "<group>"; };
+		B575E643276B1A17003F0F7F /* RecomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecomView.m; sourceTree = "<group>"; };
+		B575E646276B1A41003F0F7F /* LastNewView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LastNewView.h; sourceTree = "<group>"; };
+		B575E647276B1A41003F0F7F /* LastNewView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LastNewView.m; sourceTree = "<group>"; };
+		B575E64C276B2B6B003F0F7F /* PlayTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayTableViewCell.h; sourceTree = "<group>"; };
+		B575E64D276B2B6B003F0F7F /* PlayTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayTableViewCell.m; sourceTree = "<group>"; };
+		B575E64E276B2B6B003F0F7F /* PlayTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayTableViewCell.xib; sourceTree = "<group>"; };
+		B575E651276B2CFD003F0F7F /* PlayModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayModel.h; sourceTree = "<group>"; };
+		B575E652276B2CFD003F0F7F /* PlayModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayModel.m; sourceTree = "<group>"; };
+		B575E655276B2F54003F0F7F /* HeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeadView.h; sourceTree = "<group>"; };
+		B575E656276B2F54003F0F7F /* HeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeadView.m; sourceTree = "<group>"; };
+		C8679B9D02F8062983F05702 /* Pods_Wallpaper_WallpaperUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wallpaper_WallpaperUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6C85B40726AD02BFE921B2C /* Pods-Wallpaper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wallpaper.release.xcconfig"; path = "Target Support Files/Pods-Wallpaper/Pods-Wallpaper.release.xcconfig"; sourceTree = "<group>"; };
+		F2903741CB6FFD8A3AB9725B /* Pods-Wallpaper-WallpaperUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wallpaper-WallpaperUITests.release.xcconfig"; path = "Target Support Files/Pods-Wallpaper-WallpaperUITests/Pods-Wallpaper-WallpaperUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B575E5D4276AE61D003F0F7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB6F220B5C3B55C6ACFD1664 /* Pods_Wallpaper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B575E5EF276AE630003F0F7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C100B010A872DC1C637927DC /* Pods_WallpaperTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B575E5F9276AE630003F0F7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12B015058B2B8FB74C2FC2B4 /* Pods_Wallpaper_WallpaperUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49752F21352F82223E95AC1A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				78986FFA630D19144164E2EA /* Pods-Wallpaper.debug.xcconfig */,
+				E6C85B40726AD02BFE921B2C /* Pods-Wallpaper.release.xcconfig */,
+				0961E0ED360260DA4F304994 /* Pods-Wallpaper-WallpaperUITests.debug.xcconfig */,
+				F2903741CB6FFD8A3AB9725B /* Pods-Wallpaper-WallpaperUITests.release.xcconfig */,
+				78E5D2395EA23EA1678942E2 /* Pods-WallpaperTests.debug.xcconfig */,
+				87349E83A745AB0BC12C334B /* Pods-WallpaperTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B575E5CE276AE61D003F0F7F = {
+			isa = PBXGroup;
+			children = (
+				B575E5D9276AE61D003F0F7F /* Wallpaper */,
+				B575E5F5276AE630003F0F7F /* WallpaperTests */,
+				B575E5FF276AE630003F0F7F /* WallpaperUITests */,
+				B575E5D8276AE61D003F0F7F /* Products */,
+				49752F21352F82223E95AC1A /* Pods */,
+				CFDE6BC2825185BCEAEC2A56 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B575E5D8276AE61D003F0F7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B575E5D7276AE61D003F0F7F /* Wallpaper.app */,
+				B575E5F2276AE630003F0F7F /* WallpaperTests.xctest */,
+				B575E5FC276AE630003F0F7F /* WallpaperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B575E5D9276AE61D003F0F7F /* Wallpaper */ = {
+			isa = PBXGroup;
+			children = (
+				B575E61A276AF0DA003F0F7F /* PayView */,
+				B575E619276AF0D5003F0F7F /* HomeView */,
+				B575E618276AF0CB003F0F7F /* SearchView */,
+				B575E610276AE6F5003F0F7F /* tool */,
+				B575E5DA276AE61D003F0F7F /* AppDelegate.h */,
+				B575E5DB276AE61D003F0F7F /* AppDelegate.m */,
+				B575E5E0276AE61D003F0F7F /* ViewController.h */,
+				B575E5E1276AE61D003F0F7F /* ViewController.m */,
+				B575E5E6276AE62F003F0F7F /* Assets.xcassets */,
+				B575E5E8276AE62F003F0F7F /* LaunchScreen.storyboard */,
+				B575E5EB276AE62F003F0F7F /* Info.plist */,
+				B575E5EC276AE62F003F0F7F /* main.m */,
+				B575E614276AE756003F0F7F /* WallpaperPch.pch */,
+			);
+			path = Wallpaper;
+			sourceTree = "<group>";
+		};
+		B575E5F5276AE630003F0F7F /* WallpaperTests */ = {
+			isa = PBXGroup;
+			children = (
+				B575E5F6276AE630003F0F7F /* WallpaperTests.m */,
+			);
+			path = WallpaperTests;
+			sourceTree = "<group>";
+		};
+		B575E5FF276AE630003F0F7F /* WallpaperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B575E600276AE630003F0F7F /* WallpaperUITests.m */,
+				B575E602276AE630003F0F7F /* WallpaperUITestsLaunchTests.m */,
+			);
+			path = WallpaperUITests;
+			sourceTree = "<group>";
+		};
+		B575E610276AE6F5003F0F7F /* tool */ = {
+			isa = PBXGroup;
+			children = (
+				B575E611276AE731003F0F7F /* WallpaperTool.h */,
+				B575E612276AE731003F0F7F /* WallpaperTool.m */,
+				B575E615276AE7DE003F0F7F /* ObjectAFNetWorking.h */,
+				B575E616276AE7DE003F0F7F /* ObjectAFNetWorking.m */,
+				B575E627276AFAEE003F0F7F /* BaseScrollView.h */,
+				B575E628276AFAEE003F0F7F /* BaseScrollView.m */,
+			);
+			path = tool;
+			sourceTree = "<group>";
+		};
+		B575E618276AF0CB003F0F7F /* SearchView */ = {
+			isa = PBXGroup;
+			children = (
+				B575E61B276AF12B003F0F7F /* SearchViewController.h */,
+				B575E61C276AF12B003F0F7F /* SearchViewController.m */,
+			);
+			path = SearchView;
+			sourceTree = "<group>";
+		};
+		B575E619276AF0D5003F0F7F /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				B575E63D276B1353003F0F7F /* AddViewController */,
+				B575E630276B12A4003F0F7F /* MeViewController */,
+				B575E62F276B1299003F0F7F /* MakViewController */,
+				B575E62E276B126A003F0F7F /* TypeViewController */,
+				B575E62D276B1230003F0F7F /* PlayViewController */,
+				B575E61E276AF134003F0F7F /* HomeViewController.h */,
+				B575E61F276AF134003F0F7F /* HomeViewController.m */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		B575E61A276AF0DA003F0F7F /* PayView */ = {
+			isa = PBXGroup;
+			children = (
+				B575E621276AF13C003F0F7F /* PayViewController.h */,
+				B575E622276AF13C003F0F7F /* PayViewController.m */,
+			);
+			path = PayView;
+			sourceTree = "<group>";
+		};
+		B575E62D276B1230003F0F7F /* PlayViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B575E64A276B2B4D003F0F7F /* Cell */,
+				B575E64B276B2B53003F0F7F /* Model */,
+				B575E654276B2F43003F0F7F /* HeadView */,
+				B575E649276B1A6C003F0F7F /* LastNewView */,
+				B575E641276B19EC003F0F7F /* RecomView */,
+				B575E631276B12D0003F0F7F /* PlayViewController.h */,
+				B575E632276B12D0003F0F7F /* PlayViewController.m */,
+			);
+			path = PlayViewController;
+			sourceTree = "<group>";
+		};
+		B575E62E276B126A003F0F7F /* TypeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B575E634276B12D7003F0F7F /* TypeViewController.h */,
+				B575E635276B12D7003F0F7F /* TypeViewController.m */,
+			);
+			path = TypeViewController;
+			sourceTree = "<group>";
+		};
+		B575E62F276B1299003F0F7F /* MakViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B575E637276B12E0003F0F7F /* MakViewController.h */,
+				B575E638276B12E0003F0F7F /* MakViewController.m */,
+			);
+			path = MakViewController;
+			sourceTree = "<group>";
+		};
+		B575E630276B12A4003F0F7F /* MeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B575E63A276B12E7003F0F7F /* MeViewController.h */,
+				B575E63B276B12E7003F0F7F /* MeViewController.m */,
+			);
+			path = MeViewController;
+			sourceTree = "<group>";
+		};
+		B575E63D276B1353003F0F7F /* AddViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B575E63E276B1364003F0F7F /* AddViewController.h */,
+				B575E63F276B1364003F0F7F /* AddViewController.m */,
+			);
+			path = AddViewController;
+			sourceTree = "<group>";
+		};
+		B575E641276B19EC003F0F7F /* RecomView */ = {
+			isa = PBXGroup;
+			children = (
+				B575E642276B1A17003F0F7F /* RecomView.h */,
+				B575E643276B1A17003F0F7F /* RecomView.m */,
+			);
+			path = RecomView;
+			sourceTree = "<group>";
+		};
+		B575E649276B1A6C003F0F7F /* LastNewView */ = {
+			isa = PBXGroup;
+			children = (
+				B575E646276B1A41003F0F7F /* LastNewView.h */,
+				B575E647276B1A41003F0F7F /* LastNewView.m */,
+			);
+			path = LastNewView;
+			sourceTree = "<group>";
+		};
+		B575E64A276B2B4D003F0F7F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B575E64C276B2B6B003F0F7F /* PlayTableViewCell.h */,
+				B575E64D276B2B6B003F0F7F /* PlayTableViewCell.m */,
+				B575E64E276B2B6B003F0F7F /* PlayTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		B575E64B276B2B53003F0F7F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B575E651276B2CFD003F0F7F /* PlayModel.h */,
+				B575E652276B2CFD003F0F7F /* PlayModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B575E654276B2F43003F0F7F /* HeadView */ = {
+			isa = PBXGroup;
+			children = (
+				B575E655276B2F54003F0F7F /* HeadView.h */,
+				B575E656276B2F54003F0F7F /* HeadView.m */,
+			);
+			path = HeadView;
+			sourceTree = "<group>";
+		};
+		CFDE6BC2825185BCEAEC2A56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5940ED4593ADE9D7D7126261 /* Pods_Wallpaper.framework */,
+				C8679B9D02F8062983F05702 /* Pods_Wallpaper_WallpaperUITests.framework */,
+				215D8593DA0A6FB9376A7963 /* Pods_WallpaperTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B575E5D6276AE61D003F0F7F /* Wallpaper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B575E606276AE630003F0F7F /* Build configuration list for PBXNativeTarget "Wallpaper" */;
+			buildPhases = (
+				F9ACEB3CCF6FE0DAB80333F9 /* [CP] Check Pods Manifest.lock */,
+				B575E5D3276AE61D003F0F7F /* Sources */,
+				B575E5D4276AE61D003F0F7F /* Frameworks */,
+				B575E5D5276AE61D003F0F7F /* Resources */,
+				4615827D6920B691B3581823 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wallpaper;
+			productName = Wallpaper;
+			productReference = B575E5D7276AE61D003F0F7F /* Wallpaper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B575E5F1276AE630003F0F7F /* WallpaperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B575E609276AE630003F0F7F /* Build configuration list for PBXNativeTarget "WallpaperTests" */;
+			buildPhases = (
+				C49D9C250D2641FA1D0EA63C /* [CP] Check Pods Manifest.lock */,
+				B575E5EE276AE630003F0F7F /* Sources */,
+				B575E5EF276AE630003F0F7F /* Frameworks */,
+				B575E5F0276AE630003F0F7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B575E5F4276AE630003F0F7F /* PBXTargetDependency */,
+			);
+			name = WallpaperTests;
+			productName = WallpaperTests;
+			productReference = B575E5F2276AE630003F0F7F /* WallpaperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B575E5FB276AE630003F0F7F /* WallpaperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B575E60C276AE630003F0F7F /* Build configuration list for PBXNativeTarget "WallpaperUITests" */;
+			buildPhases = (
+				8738BFEBC567901DDB1CFE96 /* [CP] Check Pods Manifest.lock */,
+				B575E5F8276AE630003F0F7F /* Sources */,
+				B575E5F9276AE630003F0F7F /* Frameworks */,
+				B575E5FA276AE630003F0F7F /* Resources */,
+				2677476A1B345A147B20929A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B575E5FE276AE630003F0F7F /* PBXTargetDependency */,
+			);
+			name = WallpaperUITests;
+			productName = WallpaperUITests;
+			productReference = B575E5FC276AE630003F0F7F /* WallpaperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B575E5CF276AE61D003F0F7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					B575E5D6276AE61D003F0F7F = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					B575E5F1276AE630003F0F7F = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = B575E5D6276AE61D003F0F7F;
+					};
+					B575E5FB276AE630003F0F7F = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = B575E5D6276AE61D003F0F7F;
+					};
+				};
+			};
+			buildConfigurationList = B575E5D2276AE61D003F0F7F /* Build configuration list for PBXProject "Wallpaper" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B575E5CE276AE61D003F0F7F;
+			productRefGroup = B575E5D8276AE61D003F0F7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B575E5D6276AE61D003F0F7F /* Wallpaper */,
+				B575E5F1276AE630003F0F7F /* WallpaperTests */,
+				B575E5FB276AE630003F0F7F /* WallpaperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B575E5D5276AE61D003F0F7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B575E650276B2B6B003F0F7F /* PlayTableViewCell.xib in Resources */,
+				B575E5EA276AE62F003F0F7F /* LaunchScreen.storyboard in Resources */,
+				B575E5E7276AE62F003F0F7F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B575E5F0276AE630003F0F7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B575E5FA276AE630003F0F7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2677476A1B345A147B20929A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wallpaper-WallpaperUITests/Pods-Wallpaper-WallpaperUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wallpaper-WallpaperUITests/Pods-Wallpaper-WallpaperUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Wallpaper-WallpaperUITests/Pods-Wallpaper-WallpaperUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4615827D6920B691B3581823 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wallpaper/Pods-Wallpaper-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wallpaper/Pods-Wallpaper-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Wallpaper/Pods-Wallpaper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8738BFEBC567901DDB1CFE96 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Wallpaper-WallpaperUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C49D9C250D2641FA1D0EA63C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WallpaperTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9ACEB3CCF6FE0DAB80333F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Wallpaper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B575E5D3276AE61D003F0F7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B575E629276AFAEE003F0F7F /* BaseScrollView.m in Sources */,
+				B575E648276B1A41003F0F7F /* LastNewView.m in Sources */,
+				B575E5E2276AE61D003F0F7F /* ViewController.m in Sources */,
+				B575E623276AF13C003F0F7F /* PayViewController.m in Sources */,
+				B575E617276AE7DE003F0F7F /* ObjectAFNetWorking.m in Sources */,
+				B575E5DC276AE61D003F0F7F /* AppDelegate.m in Sources */,
+				B575E613276AE731003F0F7F /* WallpaperTool.m in Sources */,
+				B575E639276B12E0003F0F7F /* MakViewController.m in Sources */,
+				B575E636276B12D7003F0F7F /* TypeViewController.m in Sources */,
+				B575E5ED276AE62F003F0F7F /* main.m in Sources */,
+				B575E63C276B12E7003F0F7F /* MeViewController.m in Sources */,
+				B575E657276B2F54003F0F7F /* HeadView.m in Sources */,
+				B575E64F276B2B6B003F0F7F /* PlayTableViewCell.m in Sources */,
+				B575E640276B1365003F0F7F /* AddViewController.m in Sources */,
+				B575E653276B2CFD003F0F7F /* PlayModel.m in Sources */,
+				B575E61D276AF12B003F0F7F /* SearchViewController.m in Sources */,
+				B575E644276B1A17003F0F7F /* RecomView.m in Sources */,
+				B575E633276B12D0003F0F7F /* PlayViewController.m in Sources */,
+				B575E620276AF134003F0F7F /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B575E5EE276AE630003F0F7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B575E5F7276AE630003F0F7F /* WallpaperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B575E5F8276AE630003F0F7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B575E601276AE630003F0F7F /* WallpaperUITests.m in Sources */,
+				B575E603276AE630003F0F7F /* WallpaperUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B575E5F4276AE630003F0F7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B575E5D6276AE61D003F0F7F /* Wallpaper */;
+			targetProxy = B575E5F3276AE630003F0F7F /* PBXContainerItemProxy */;
+		};
+		B575E5FE276AE630003F0F7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B575E5D6276AE61D003F0F7F /* Wallpaper */;
+			targetProxy = B575E5FD276AE630003F0F7F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B575E5E8276AE62F003F0F7F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B575E5E9276AE62F003F0F7F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B575E604276AE630003F0F7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B575E605276AE630003F0F7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B575E607276AE630003F0F7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78986FFA630D19144164E2EA /* Pods-Wallpaper.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Wallpaper/WallpaperPch.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Wallpaper/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = feibo.Wallpaper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B575E608276AE630003F0F7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6C85B40726AD02BFE921B2C /* Pods-Wallpaper.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Wallpaper/WallpaperPch.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Wallpaper/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = feibo.Wallpaper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B575E60A276AE630003F0F7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78E5D2395EA23EA1678942E2 /* Pods-WallpaperTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = feibo.WallpaperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wallpaper.app/Wallpaper";
+			};
+			name = Debug;
+		};
+		B575E60B276AE630003F0F7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87349E83A745AB0BC12C334B /* Pods-WallpaperTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = feibo.WallpaperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wallpaper.app/Wallpaper";
+			};
+			name = Release;
+		};
+		B575E60D276AE630003F0F7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0961E0ED360260DA4F304994 /* Pods-Wallpaper-WallpaperUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = feibo.WallpaperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wallpaper;
+			};
+			name = Debug;
+		};
+		B575E60E276AE630003F0F7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2903741CB6FFD8A3AB9725B /* Pods-Wallpaper-WallpaperUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = feibo.WallpaperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wallpaper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B575E5D2276AE61D003F0F7F /* Build configuration list for PBXProject "Wallpaper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B575E604276AE630003F0F7F /* Debug */,
+				B575E605276AE630003F0F7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B575E606276AE630003F0F7F /* Build configuration list for PBXNativeTarget "Wallpaper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B575E607276AE630003F0F7F /* Debug */,
+				B575E608276AE630003F0F7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B575E609276AE630003F0F7F /* Build configuration list for PBXNativeTarget "WallpaperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B575E60A276AE630003F0F7F /* Debug */,
+				B575E60B276AE630003F0F7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B575E60C276AE630003F0F7F /* Build configuration list for PBXNativeTarget "WallpaperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B575E60D276AE630003F0F7F /* Debug */,
+				B575E60E276AE630003F0F7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B575E5CF276AE61D003F0F7F /* Project object */;
+}
