@@ -16,23 +16,6 @@
 		B575E5F7276AE630003F0F7F /* WallpaperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B575E5F6276AE630003F0F7F /* WallpaperTests.m */; };
 		B575E601276AE630003F0F7F /* WallpaperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B575E600276AE630003F0F7F /* WallpaperUITests.m */; };
 		B575E603276AE630003F0F7F /* WallpaperUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B575E602276AE630003F0F7F /* WallpaperUITestsLaunchTests.m */; };
-		B575E613276AE731003F0F7F /* WallpaperTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B575E612276AE731003F0F7F /* WallpaperTool.m */; };
-		B575E617276AE7DE003F0F7F /* ObjectAFNetWorking.m in Sources */ = {isa = PBXBuildFile; fileRef = B575E616276AE7DE003F0F7F /* ObjectAFNetWorking.m */; };
-		B575E61D276AF12B003F0F7F /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B575E61C276AF12B003F0F7F /* SearchViewController.m */; };
-		B575E620276AF134003F0F7F /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B575E61F276AF134003F0F7F /* HomeViewController.m */; };
-		B575E623276AF13C003F0F7F /* PayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B575E622276AF13C003F0F7F /* PayViewController.m */; };
-		B575E629276AFAEE003F0F7F /* BaseScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B575E628276AFAEE003F0F7F /* BaseScrollView.m */; };
-		B575E633276B12D0003F0F7F /* PlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B575E632276B12D0003F0F7F /* PlayViewController.m */; };
-		B575E636276B12D7003F0F7F /* TypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B575E635276B12D7003F0F7F /* TypeViewController.m */; };
-		B575E639276B12E0003F0F7F /* MakViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B575E638276B12E0003F0F7F /* MakViewController.m */; };
-		B575E63C276B12E7003F0F7F /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B575E63B276B12E7003F0F7F /* MeViewController.m */; };
-		B575E640276B1365003F0F7F /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B575E63F276B1364003F0F7F /* AddViewController.m */; };
-		B575E644276B1A17003F0F7F /* RecomView.m in Sources */ = {isa = PBXBuildFile; fileRef = B575E643276B1A17003F0F7F /* RecomView.m */; };
-		B575E648276B1A41003F0F7F /* LastNewView.m in Sources */ = {isa = PBXBuildFile; fileRef = B575E647276B1A41003F0F7F /* LastNewView.m */; };
-		B575E64F276B2B6B003F0F7F /* PlayTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B575E64D276B2B6B003F0F7F /* PlayTableViewCell.m */; };
-		B575E650276B2B6B003F0F7F /* PlayTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B575E64E276B2B6B003F0F7F /* PlayTableViewCell.xib */; };
-		B575E653276B2CFD003F0F7F /* PlayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B575E652276B2CFD003F0F7F /* PlayModel.m */; };
-		B575E657276B2F54003F0F7F /* HeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = B575E656276B2F54003F0F7F /* HeadView.m */; };
 		C100B010A872DC1C637927DC /* Pods_WallpaperTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 215D8593DA0A6FB9376A7963 /* Pods_WallpaperTests.framework */; };
 		DB6F220B5C3B55C6ACFD1664 /* Pods_Wallpaper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5940ED4593ADE9D7D7126261 /* Pods_Wallpaper.framework */; };
 /* End PBXBuildFile section */
@@ -75,40 +58,7 @@
 		B575E5FC276AE630003F0F7F /* WallpaperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WallpaperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B575E600276AE630003F0F7F /* WallpaperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WallpaperUITests.m; sourceTree = "<group>"; };
 		B575E602276AE630003F0F7F /* WallpaperUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WallpaperUITestsLaunchTests.m; sourceTree = "<group>"; };
-		B575E611276AE731003F0F7F /* WallpaperTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WallpaperTool.h; sourceTree = "<group>"; };
-		B575E612276AE731003F0F7F /* WallpaperTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WallpaperTool.m; sourceTree = "<group>"; };
 		B575E614276AE756003F0F7F /* WallpaperPch.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WallpaperPch.pch; sourceTree = "<group>"; };
-		B575E615276AE7DE003F0F7F /* ObjectAFNetWorking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectAFNetWorking.h; sourceTree = "<group>"; };
-		B575E616276AE7DE003F0F7F /* ObjectAFNetWorking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectAFNetWorking.m; sourceTree = "<group>"; };
-		B575E61B276AF12B003F0F7F /* SearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
-		B575E61C276AF12B003F0F7F /* SearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
-		B575E61E276AF134003F0F7F /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
-		B575E61F276AF134003F0F7F /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
-		B575E621276AF13C003F0F7F /* PayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PayViewController.h; sourceTree = "<group>"; };
-		B575E622276AF13C003F0F7F /* PayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayViewController.m; sourceTree = "<group>"; };
-		B575E627276AFAEE003F0F7F /* BaseScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseScrollView.h; sourceTree = "<group>"; };
-		B575E628276AFAEE003F0F7F /* BaseScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseScrollView.m; sourceTree = "<group>"; };
-		B575E631276B12D0003F0F7F /* PlayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayViewController.h; sourceTree = "<group>"; };
-		B575E632276B12D0003F0F7F /* PlayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayViewController.m; sourceTree = "<group>"; };
-		B575E634276B12D7003F0F7F /* TypeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TypeViewController.h; sourceTree = "<group>"; };
-		B575E635276B12D7003F0F7F /* TypeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TypeViewController.m; sourceTree = "<group>"; };
-		B575E637276B12E0003F0F7F /* MakViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MakViewController.h; sourceTree = "<group>"; };
-		B575E638276B12E0003F0F7F /* MakViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MakViewController.m; sourceTree = "<group>"; };
-		B575E63A276B12E7003F0F7F /* MeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
-		B575E63B276B12E7003F0F7F /* MeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
-		B575E63E276B1364003F0F7F /* AddViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
-		B575E63F276B1364003F0F7F /* AddViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
-		B575E642276B1A17003F0F7F /* RecomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecomView.h; sourceTree = "<group>"; };
-		B575E643276B1A17003F0F7F /* RecomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecomView.m; sourceTree = "<group>"; };
-		B575E646276B1A41003F0F7F /* LastNewView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LastNewView.h; sourceTree = "<group>"; };
-		B575E647276B1A41003F0F7F /* LastNewView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LastNewView.m; sourceTree = "<group>"; };
-		B575E64C276B2B6B003F0F7F /* PlayTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayTableViewCell.h; sourceTree = "<group>"; };
-		B575E64D276B2B6B003F0F7F /* PlayTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayTableViewCell.m; sourceTree = "<group>"; };
-		B575E64E276B2B6B003F0F7F /* PlayTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayTableViewCell.xib; sourceTree = "<group>"; };
-		B575E651276B2CFD003F0F7F /* PlayModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayModel.h; sourceTree = "<group>"; };
-		B575E652276B2CFD003F0F7F /* PlayModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayModel.m; sourceTree = "<group>"; };
-		B575E655276B2F54003F0F7F /* HeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeadView.h; sourceTree = "<group>"; };
-		B575E656276B2F54003F0F7F /* HeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeadView.m; sourceTree = "<group>"; };
 		C8679B9D02F8062983F05702 /* Pods_Wallpaper_WallpaperUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wallpaper_WallpaperUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6C85B40726AD02BFE921B2C /* Pods-Wallpaper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wallpaper.release.xcconfig"; path = "Target Support Files/Pods-Wallpaper/Pods-Wallpaper.release.xcconfig"; sourceTree = "<group>"; };
 		F2903741CB6FFD8A3AB9725B /* Pods-Wallpaper-WallpaperUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wallpaper-WallpaperUITests.release.xcconfig"; path = "Target Support Files/Pods-Wallpaper-WallpaperUITests/Pods-Wallpaper-WallpaperUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -180,10 +130,6 @@
 		B575E5D9276AE61D003F0F7F /* Wallpaper */ = {
 			isa = PBXGroup;
 			children = (
-				B575E61A276AF0DA003F0F7F /* PayView */,
-				B575E619276AF0D5003F0F7F /* HomeView */,
-				B575E618276AF0CB003F0F7F /* SearchView */,
-				B575E610276AE6F5003F0F7F /* tool */,
 				B575E5DA276AE61D003F0F7F /* AppDelegate.h */,
 				B575E5DB276AE61D003F0F7F /* AppDelegate.m */,
 				B575E5E0276AE61D003F0F7F /* ViewController.h */,
@@ -212,147 +158,6 @@
 				B575E602276AE630003F0F7F /* WallpaperUITestsLaunchTests.m */,
 			);
 			path = WallpaperUITests;
-			sourceTree = "<group>";
-		};
-		B575E610276AE6F5003F0F7F /* tool */ = {
-			isa = PBXGroup;
-			children = (
-				B575E611276AE731003F0F7F /* WallpaperTool.h */,
-				B575E612276AE731003F0F7F /* WallpaperTool.m */,
-				B575E615276AE7DE003F0F7F /* ObjectAFNetWorking.h */,
-				B575E616276AE7DE003F0F7F /* ObjectAFNetWorking.m */,
-				B575E627276AFAEE003F0F7F /* BaseScrollView.h */,
-				B575E628276AFAEE003F0F7F /* BaseScrollView.m */,
-			);
-			path = tool;
-			sourceTree = "<group>";
-		};
-		B575E618276AF0CB003F0F7F /* SearchView */ = {
-			isa = PBXGroup;
-			children = (
-				B575E61B276AF12B003F0F7F /* SearchViewController.h */,
-				B575E61C276AF12B003F0F7F /* SearchViewController.m */,
-			);
-			path = SearchView;
-			sourceTree = "<group>";
-		};
-		B575E619276AF0D5003F0F7F /* HomeView */ = {
-			isa = PBXGroup;
-			children = (
-				B575E63D276B1353003F0F7F /* AddViewController */,
-				B575E630276B12A4003F0F7F /* MeViewController */,
-				B575E62F276B1299003F0F7F /* MakViewController */,
-				B575E62E276B126A003F0F7F /* TypeViewController */,
-				B575E62D276B1230003F0F7F /* PlayViewController */,
-				B575E61E276AF134003F0F7F /* HomeViewController.h */,
-				B575E61F276AF134003F0F7F /* HomeViewController.m */,
-			);
-			path = HomeView;
-			sourceTree = "<group>";
-		};
-		B575E61A276AF0DA003F0F7F /* PayView */ = {
-			isa = PBXGroup;
-			children = (
-				B575E621276AF13C003F0F7F /* PayViewController.h */,
-				B575E622276AF13C003F0F7F /* PayViewController.m */,
-			);
-			path = PayView;
-			sourceTree = "<group>";
-		};
-		B575E62D276B1230003F0F7F /* PlayViewController */ = {
-			isa = PBXGroup;
-			children = (
-				B575E64A276B2B4D003F0F7F /* Cell */,
-				B575E64B276B2B53003F0F7F /* Model */,
-				B575E654276B2F43003F0F7F /* HeadView */,
-				B575E649276B1A6C003F0F7F /* LastNewView */,
-				B575E641276B19EC003F0F7F /* RecomView */,
-				B575E631276B12D0003F0F7F /* PlayViewController.h */,
-				B575E632276B12D0003F0F7F /* PlayViewController.m */,
-			);
-			path = PlayViewController;
-			sourceTree = "<group>";
-		};
-		B575E62E276B126A003F0F7F /* TypeViewController */ = {
-			isa = PBXGroup;
-			children = (
-				B575E634276B12D7003F0F7F /* TypeViewController.h */,
-				B575E635276B12D7003F0F7F /* TypeViewController.m */,
-			);
-			path = TypeViewController;
-			sourceTree = "<group>";
-		};
-		B575E62F276B1299003F0F7F /* MakViewController */ = {
-			isa = PBXGroup;
-			children = (
-				B575E637276B12E0003F0F7F /* MakViewController.h */,
-				B575E638276B12E0003F0F7F /* MakViewController.m */,
-			);
-			path = MakViewController;
-			sourceTree = "<group>";
-		};
-		B575E630276B12A4003F0F7F /* MeViewController */ = {
-			isa = PBXGroup;
-			children = (
-				B575E63A276B12E7003F0F7F /* MeViewController.h */,
-				B575E63B276B12E7003F0F7F /* MeViewController.m */,
-			);
-			path = MeViewController;
-			sourceTree = "<group>";
-		};
-		B575E63D276B1353003F0F7F /* AddViewController */ = {
-			isa = PBXGroup;
-			children = (
-				B575E63E276B1364003F0F7F /* AddViewController.h */,
-				B575E63F276B1364003F0F7F /* AddViewController.m */,
-			);
-			path = AddViewController;
-			sourceTree = "<group>";
-		};
-		B575E641276B19EC003F0F7F /* RecomView */ = {
-			isa = PBXGroup;
-			children = (
-				B575E642276B1A17003F0F7F /* RecomView.h */,
-				B575E643276B1A17003F0F7F /* RecomView.m */,
-			);
-			path = RecomView;
-			sourceTree = "<group>";
-		};
-		B575E649276B1A6C003F0F7F /* LastNewView */ = {
-			isa = PBXGroup;
-			children = (
-				B575E646276B1A41003F0F7F /* LastNewView.h */,
-				B575E647276B1A41003F0F7F /* LastNewView.m */,
-			);
-			path = LastNewView;
-			sourceTree = "<group>";
-		};
-		B575E64A276B2B4D003F0F7F /* Cell */ = {
-			isa = PBXGroup;
-			children = (
-				B575E64C276B2B6B003F0F7F /* PlayTableViewCell.h */,
-				B575E64D276B2B6B003F0F7F /* PlayTableViewCell.m */,
-				B575E64E276B2B6B003F0F7F /* PlayTableViewCell.xib */,
-			);
-			path = Cell;
-			sourceTree = "<group>";
-		};
-		B575E64B276B2B53003F0F7F /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				B575E651276B2CFD003F0F7F /* PlayModel.h */,
-				B575E652276B2CFD003F0F7F /* PlayModel.m */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		B575E654276B2F43003F0F7F /* HeadView */ = {
-			isa = PBXGroup;
-			children = (
-				B575E655276B2F54003F0F7F /* HeadView.h */,
-				B575E656276B2F54003F0F7F /* HeadView.m */,
-			);
-			path = HeadView;
 			sourceTree = "<group>";
 		};
 		CFDE6BC2825185BCEAEC2A56 /* Frameworks */ = {
@@ -473,7 +278,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B575E650276B2B6B003F0F7F /* PlayTableViewCell.xib in Resources */,
 				B575E5EA276AE62F003F0F7F /* LaunchScreen.storyboard in Resources */,
 				B575E5E7276AE62F003F0F7F /* Assets.xcassets in Resources */,
 			);
@@ -603,25 +407,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B575E629276AFAEE003F0F7F /* BaseScrollView.m in Sources */,
-				B575E648276B1A41003F0F7F /* LastNewView.m in Sources */,
 				B575E5E2276AE61D003F0F7F /* ViewController.m in Sources */,
-				B575E623276AF13C003F0F7F /* PayViewController.m in Sources */,
-				B575E617276AE7DE003F0F7F /* ObjectAFNetWorking.m in Sources */,
 				B575E5DC276AE61D003F0F7F /* AppDelegate.m in Sources */,
-				B575E613276AE731003F0F7F /* WallpaperTool.m in Sources */,
-				B575E639276B12E0003F0F7F /* MakViewController.m in Sources */,
-				B575E636276B12D7003F0F7F /* TypeViewController.m in Sources */,
 				B575E5ED276AE62F003F0F7F /* main.m in Sources */,
-				B575E63C276B12E7003F0F7F /* MeViewController.m in Sources */,
-				B575E657276B2F54003F0F7F /* HeadView.m in Sources */,
-				B575E64F276B2B6B003F0F7F /* PlayTableViewCell.m in Sources */,
-				B575E640276B1365003F0F7F /* AddViewController.m in Sources */,
-				B575E653276B2CFD003F0F7F /* PlayModel.m in Sources */,
-				B575E61D276AF12B003F0F7F /* SearchViewController.m in Sources */,
-				B575E644276B1A17003F0F7F /* RecomView.m in Sources */,
-				B575E633276B12D0003F0F7F /* PlayViewController.m in Sources */,
-				B575E620276AF134003F0F7F /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
